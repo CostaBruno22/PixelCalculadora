@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans';
+}
+
+body {
+    
+    height: 150vh;
+    background:
+        linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+        linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+        linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+        linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+        linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+        linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+    background-color: #131313;
+    background-size: 20px 20px;
+}
+
+.container {
+    margin-top: 150px;
+    width: 500px;
+    background: #FFF7F1;
+    padding: 80px 40px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 8px rgba(0, 0, 0, 0.48);
+    -webkit-box-shadow: 10px 10px 5px 8px rgba(0, 0, 0, 0.48);
+    -moz-box-shadow: 10px 10px 5px 8px rgba(0, 0, 0, 0.48);
+}
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+h2 span{
+    color: #9A3B3B;
+}
+
+.wrapper-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0 70px 0;
+    gap: 10px;
+}
+
+.wrapper-1 input{
+    width: 100px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+input{
+    padding: 15px 10px;
+    border: #B0A695 1px solid;
+    border-radius: 5px;
+    color: #222;
+    outline: none;
+}
+
+input:focus {
+    border: 1px solid #9A3B3B; 
+    border-radius: 5px;  
+}
+
+label{
+    color: #222;
+    font-weight: bold;
+    letter-spacing: 0.6px;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.wrapper-2 input, .wrapper-3 input{
+    width: 100%;
+    font-size: 18px;
+}
+
+.logo {
+    display: flex;
+    background: linear-gradient(45deg, #EBE3D5, #B0A695, #776B5D);
+    height: 120px;
+    overflow: hidden;
+    border-radius: 50%;
+    width: 120px;
+    margin-bottom: 30px;
+    margin-left: 150px;
+    border: #0f0f0f solid 3px;
+}
+
+.logo:hover {
+    background: linear-gradient(45deg, #776B5D, #B0A695, #EBE3D5);
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
